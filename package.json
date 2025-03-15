@@ -2,17 +2,17 @@
     "name": "cois4480h-2024fa",
     "private": true,
     "scripts": {
-        "dev": "parcel serve src/**/*.html --open",
+        "dev": "rm -rf dist .parcel-cache && parcel serve src/**/*.html --open",
         "build": "parcel build src/**/*.html",
         "check": "tsc --no-emit"
     },
     "dependencies": {
-        "mv-redux": "^0.1.7"
+        "mv-redux": "^0.1.9"
     },
     "devDependencies": {
-        "@parcel/transformer-glsl": "~2.12.0",
-        "parcel": "~2.12.0",
-        "typescript": "~5.5.4"
+        "@parcel/transformer-glsl": "^2.12.0",
+        "parcel": "^2.12.0",
+        "typescript": "^5.5.4"
     },
     "@parcel/resolver-default": {
         "packageExports": true
