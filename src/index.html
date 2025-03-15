@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="./main.js"></script>
+    <title>assignment-03</title>
+</head>
+<body>
+    <canvas width="512" height="512"></canvas>
+
+    <form class="menu" id="tex-menu">
+        <div class="group">
+            <p>
+                <label for="mtl-shininess">Material shininess</label>
+                <input id="mtl-shininess" type="range" value="8" step="1" min="1" max="128">
+                <span aria-hidden="true">16.00</span>
+            </p>
+        </div>
+        <hr>
+        <div class="group">
+            <p>
+                <label for="light-ambient">Light ambient colour</label>
+                <input id="light-ambient" type="color" value="#ffffff">
+            </p>
+            <p>
+                <label for="light-diffuse">Light diffuse colour</label>
+                <input id="light-diffuse" type="color" value="#fffeee">
+            </p>
+            <p>
+                <label for="light-specular">Light specular colour</label>
+                <input id="light-specular" type="color" value="#ffffee">
+            </p>
+        </div>
+        <hr>
+        <div class="group">
+            <p>
+                <label for="light-x">Light <i>x</i>-position</label>
+                <input type="range" id="light-x" min="-25" max="25" value="4" step="0.25">
+                <span aria-hidden="true">4.00</span>
+            </p>
+            <p>
+                <label for="light-y">Light <i>y</i>-position</label>
+                <input type="range" id="light-y" min="-25" max="25" value="4" step="0.25">
+                <span aria-hidden="true">4.00</span>
+            </p>
+            <p>
+                <label for="light-z">Light <i>z</i>-position</label>
+                <input type="range" id="light-z" min="-25" max="25" value="4" step="0.25">
+                <span aria-hidden="true">4.00</span>
+            </p>
+        </div>
+        <hr>
+        <div class="group">
+            <p>
+                <label for="camera-x">Camera <i>x</i>-position</label>
+                <input id="camera-x" type="range" min="-15" max="15" step="0.5" value="0">
+                <span aria-hidden="true">0.00</span>
+            </p>
+            <p>
+                <label for="camera-y">Camera <i>y</i>-position</label>
+                <input id="camera-y" type="range" min="-15" max="15" step="0.5" value="5">
+                <span aria-hidden="true">5.00</span>
+            </p>
+            <p>
+                <label for="camera-z">Camera <i>z</i>-position</label>
+                <input id="camera-z" type="range" min="-15" max="15" step="0.5" value="9">
+                <span aria-hidden="true">9.00</span>
+            </p>
+        </div>
+    </form>
+</body>
+</html>

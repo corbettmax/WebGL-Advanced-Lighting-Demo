@@ -1,8 +1,8 @@
 # WebGL-Running-Man
 WebGL demonstration of a 3d figure running in a scene
+Workspace sourced from https://github.com/matthew-e-brown/mv-redux , all credits to Matthew Brown
 
 ## Setup
-First, unzip the 'WebGL-Workspace' (sourced from https://github.com/matthew-e-brown/mv-redux , all credits to Matthew Brown)
 
 If node and npm aren't already installed:
 
