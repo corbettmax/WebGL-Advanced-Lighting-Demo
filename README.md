@@ -1,5 +1,5 @@
 # WebGL-Running-Man
-WebGL demonstration of a 3d figure running in a scene
+WebGL demonstration with multiple textures and Blinn Phong shading
 Workspace sourced from https://github.com/matthew-e-brown/mv-redux , all credits to Matthew Brown
 
 ## Setup
