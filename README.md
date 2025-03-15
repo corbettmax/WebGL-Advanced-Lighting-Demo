@@ -1,4 +1,4 @@
-# WebGL-Running-Man
+# WebGL-Advanced-Lighting-Demo
 WebGL demonstration with multiple textures and Blinn Phong shading
 Workspace sourced from https://github.com/matthew-e-brown/mv-redux , all credits to Matthew Brown
 
